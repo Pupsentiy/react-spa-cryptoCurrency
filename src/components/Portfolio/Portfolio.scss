@@ -1,0 +1,60 @@
+.container__balance {
+    display: flex;
+
+    .box__balacne {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .totalbalance {
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            width: 120px;
+            border-radius: 5px;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .totalBalanceCoins {
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            width: 150px;
+            border-radius: 5px;
+            align-items: center;
+            margin-top: 20px;
+        }
+    }
+
+    .box__chartCoins {
+        width: 50%;
+        margin-bottom: 25px;
+        justify-content: center;
+        display: flex;
+    }
+}
+
+.box__dialog {
+    padding: 0px 20px 20px 20px;
+
+    .css-heg063-MuiTabs-flexContainer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .tabs {
+        margin-bottom: 15px;
+    }
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}

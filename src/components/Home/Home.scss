@@ -1,0 +1,91 @@
+.container__home {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: 100%;
+
+    .box__chart {
+        display: flex;
+        flex-wrap: wrap;
+
+        @media (min-width: 992px) and (max-width: 1599.98px) {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .box__changecurrency {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 50%;
+        border-radius: 10px;
+        margin: 15px 0px;
+        padding: 20px;
+
+        .changecurrency__left {
+            .selected__left {
+                @media (max-width: 1399.98px) {
+                    margin-bottom: 20px;
+                }
+
+                .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+                    border-color: rgb(255, 255, 255);
+                    border-radius: 5px 0px 0px 5px;
+                }
+
+                .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
+                    color: rgb(255, 255, 255);
+                    min-width: 35px;
+                }
+
+                .css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+                    color: rgb(255, 255, 255);
+                }
+            }
+
+            .textField__left {
+                .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+                    color: rgb(255, 255, 255);
+                }
+
+                .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+                    border-color: rgb(255, 255, 255);
+                    border-radius: 0px 5px 5px 0px;
+                }
+            }
+        }
+    }
+
+    .changecurrency__right {
+        .selected__right {
+            .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+                border-color: rgb(255, 255, 255);
+                border-radius: 5px 0px 0px 5px;
+            }
+
+            .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
+                color: rgb(255, 255, 255);
+                min-width: 35px;
+            }
+
+            .css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+                color: rgb(255, 255, 255);
+            }
+        }
+
+        .textField__right {
+            .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+                color: rgb(255, 255, 255);
+            }
+
+            .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+                border-color: rgb(255, 255, 255);
+                border-radius: 0px 5px 5px 0px;
+            }
+        }
+    }
+}

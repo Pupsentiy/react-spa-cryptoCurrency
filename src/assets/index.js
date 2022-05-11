@@ -1,0 +1,1 @@
+export  { Switch } from './img/icons/Switch'

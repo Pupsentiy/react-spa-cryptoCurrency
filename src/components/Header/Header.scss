@@ -1,0 +1,19 @@
+.container__header {
+    padding: 20px;
+
+    a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: rgb(0 206 255);
+
+        &:hover {
+            color: rgba(255, 73, 217, 0.46);
+        }
+    }
+
+    .active {
+        border: 2px solid rgba(255, 73, 217, 0.46);
+        padding: 5px 7px;
+        border-radius: 3px;
+    }
+}
