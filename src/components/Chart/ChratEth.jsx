@@ -33,7 +33,7 @@ const CryptoCurrencyChart = () => {
                         label: 'ETH/USD',
                         fill: true,
                         lineTension: 0.1,
-                        backgroundColor: 'rgba(75,250,192,0.5)',
+                        backgroundColor: 'rgba(75,250,192,0.7)',
                         borderDashOffset: 10.0,
                         borderJoinStyle: 'miter',
                         pointBorderColor: 'rgb(214, 196, 59)',

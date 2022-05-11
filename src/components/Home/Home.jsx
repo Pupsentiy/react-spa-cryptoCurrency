@@ -12,8 +12,8 @@ const Home = () => {
   const [sum, setSum] = useState(1)
   const [sumFromCurrency, setSumFromCurrency] = useState(true)
 
-  let toAmount 
-  let fromAmount 
+  let toAmount
+  let fromAmount
   if (sumFromCurrency) {
     fromAmount = sum
     toAmount = (toCurrency / FromCurrency) * sum;
@@ -21,7 +21,7 @@ const Home = () => {
     toAmount = sum
     fromAmount = (FromCurrency / toCurrency) * sum
   }
-console.log(toAmount)
+
   useEffect(() => {
     fetch(EXCHANGE_RATES)
       .then(res => res.json())
@@ -65,7 +65,7 @@ console.log(toAmount)
                 <MenuItem key={index} value={item.value}>{item.unit === '$' ? 'USD' : item.unit}</MenuItem>
               ))}
             </Select>
-            <TextField className="textField__right" value={toAmount} type='number' onChange={handleChange2} />
+            <TextField className="textField__right" value={toAmount.toString()} type='number' onChange={handleChange2} />
           </Box>
         </Box>
         <Box className='box__chart' >

@@ -36,7 +36,7 @@ const CryptoCurrencyChart = () => {
                         label: 'BTC/USD',
                         fill: true,
                         lineTension: 0.2,
-                        backgroundColor: 'rgba(255,73,217,0.46)',
+                        backgroundColor: 'rgba(255,73,217,0.7)',
                         borderDashOffset: 10.0,
                         borderJoinStyle: 'miter',
                         pointBorderColor: 'rgb(214, 196, 59)',

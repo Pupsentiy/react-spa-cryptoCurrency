@@ -61,6 +61,10 @@ const Portfolio = () => {
 
   const handleClickBuy = () => {
     let sum = totalBalanceCoins.eth.currentPrice + totalBalanceCoins.btc.currentPrice
+    if(sum < 0){
+      sum = 0
+      setTotalBalance(sum)
+    }
     setTotalBalance(sum)
     setOpen(false)
   }
